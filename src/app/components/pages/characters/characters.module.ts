@@ -7,18 +7,16 @@ import { CharacterDetailsComponent } from '@characters/character-details/charact
 import { CharacterListComponent } from '@characters/character-list/character-list.component';
 
 
-const myComponents = [CharacterDetailsComponent,CharacterListComponent,]
-
 @NgModule({
   declarations: [
-    ...myComponents
+    CharacterDetailsComponent, CharacterListComponent,
   ],
   imports: [
     CommonModule,
     RouterModule
   ],
   exports: [
-    ...myComponents
+    CharacterDetailsComponent, CharacterListComponent,
   ]
 })
 export class CharactersModule { }

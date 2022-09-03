@@ -7,7 +7,7 @@ import { CharacterListComponent } from './character-list.component';
 
 @NgModule({
   declarations: [
-    CharacterListComponent
+    
   ],
   imports: [
     CommonModule,
